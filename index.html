@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>한가람</title>
+
+    <!-- fancybox CSS 링크는 title 태그 바로 밑에다 붙여넣기, 밑에다가 넣으면 안 됨 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <!-- Swiper's CSS를 내가 만든 거 밑에 넣으면 내가 만든 게 먹힐 수 있으므로 항상 위쪽에 넣어야 함 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- css 파일 분리, 공통요소를 위에 둠 -->
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <div class="inner">
+
+            <h1>
+                <a href="#">ㅎㄱㄹ</a>
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#">영상편집/모션그래픽</a></li>
+                    <li><a href="#">웹디자인/웹퍼블리싱</a></li>
+                    <li><a href="#">그래픽디자인</a></li>
+                    <li><a href="#">나의 소개</a></li>
+                </ul>
+            </nav>
+
+            <ul class="right_menu">
+                <li><a href="#">유튜브채널</a></li>
+                <li><a href="#">카카오ID</a></li>
+            </ul> <!-- .right_menu -->
+
+        </div> <!-- .inner end -->
+    </header>
+
+    <section class="main_visual">
+
+        <!-- 샘플이미지 적용하기: placeholder.com -->
+        <img src="https://via.placeholder.com/1920x960" alt="" />
+
+        <!--         <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/boLvKYV1vQM?controls=0&amp;start=265"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div> -->
+
+
+    </section> <!-- .main_visual end -->
+
+    <section class="video">
+
+        <div class="inner">
+
+            <div class="title">
+                <h3>영상편집/모션그래픽</h3>
+                <p>프리미어 프로, 에프터이펙트 등을 사용해 영상편집/모션그래픽 진행</p>
+            </div> <!-- .title end -->
+
+            <ul class="tab_menu">
+                <li class="on">게임</li> <!-- 접속 후 첫화면에 첫 번째 리스트가 선택돼 있어야 하기 때문에 얘만 클래스명을 붙여줌 -->
+                <li>홍보영상</li>
+                <li>브이로그</li>
+                <li>인포그래픽</li>
+                <li>뮤직티저</li>
+            </ul> <!-- .tab_menu end -->
+
+            <div class="list">
+
+                <div class="list_in on"> <!-- 게임 -->
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <div class="youtube_wrap">
+                                    <div class="youtube">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qJfna-DzOmU"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div> <!-- .youtube_wrap -->
+
+                                <div class="info">
+                                    <h4>고영희 2마리가 꼬물이 10마리를 낳음ㅋㅋ</h4>
+                                    <p>기획, 연출, 디자인, 촬영, 특수효과</p>
+                                    <dl>
+                                        <dt>제작기획</dt>
+                                        <dd>컨셉 및 제작목적 웅대한 무엇이 품었기 행복스럽고 우리 대중을 갑 보배를 옷을 쓸쓸하랴? 꽃이 것은 이상, 미묘한 하여도 뿐이다. 끓는
+                                            동력은 위하여 때까지 노래하며 산야에 기관과 약동하다. 붙잡아 두손을 가치를 곧 끓는다. 찬미를 청춘의 하는 이상 얼음 동력은 싶이 밝은
+                                            사막이다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>프로그램</dt>
+                                        <dd>프리미어프로, 애프터이펙트, 포토샵, 일러스트레이터</dd>
+                                    </dl>
+
+                                    <ul class="btn">
+                                        <li><a href="#">유튜브 이동</a></li>
+                                        <li><a href="#">기획서 보기</a></li>
+                                    </ul>
+                                </div>
+
+                            </div> <!-- .swiper-slide end / 1 -->
+                            <div class="swiper-slide">
+
+                                <div class="youtube_wrap">
+                                    <div class="youtube">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4Vm9nGXtp5g"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div> <!-- .youtube_wrap -->
+
+                                <div class="info">
+                                    <h4>햄스터에게 파스타를 만들어주면</h4>
+                                    <p>기획, 연출, 디자인, 촬영, 특수효과</p>
+                                    <dl>
+                                        <dt>제작기획</dt>
+                                        <dd>컨셉 및 제작목적 웅대한 무엇이 품었기 행복스럽고 우리 대중을 갑 보배를 옷을 쓸쓸하랴? 꽃이 것은 이상, 미묘한 하여도 뿐이다. 끓는
+                                            동력은 위하여 때까지 노래하며 산야에 기관과 약동하다. 붙잡아 두손을 가치를 곧 끓는다. 찬미를 청춘의 하는 이상 얼음 동력은 싶이 밝은
+                                            사막이다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>프로그램</dt>
+                                        <dd>프리미어프로, 애프터이펙트, 포토샵, 일러스트레이터</dd>
+                                    </dl>
+
+                                    <ul class="btn">
+                                        <li><a href="#">유튜브 이동</a></li>
+                                        <li><a href="#">기획서 보기</a></li>
+                                    </ul>
+                                </div>
+
+                            </div> <!-- .swiper-slide end / 2 -->
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div> <!-- .list_in end 1 / 게임 -->
+
+                <div class="list_in"> <!-- 홍보영상 -->
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <div class="youtube_wrap">
+                                    <div class="youtube">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uKod3Wbvj4s"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div> <!-- .youtube_wrap -->
+
+                                <div class="info">
+                                    <h4>태어나 전복을 처음 맛 본 아기 수달</h4>
+                                    <p>기획, 연출, 디자인, 촬영, 특수효과</p>
+                                    <dl>
+                                        <dt>제작기획</dt>
+                                        <dd>컨셉 및 제작목적 웅대한 무엇이 품었기 행복스럽고 우리 대중을 갑 보배를 옷을 쓸쓸하랴? 꽃이 것은 이상, 미묘한 하여도 뿐이다. 끓는
+                                            동력은 위하여 때까지 노래하며 산야에 기관과 약동하다. 붙잡아 두손을 가치를 곧 끓는다. 찬미를 청춘의 하는 이상 얼음 동력은 싶이 밝은
+                                            사막이다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>프로그램</dt>
+                                        <dd>프리미어프로, 애프터이펙트, 포토샵, 일러스트레이터</dd>
+                                    </dl>
+
+                                    <ul class="btn">
+                                        <li><a href="#">유튜브 이동</a></li>
+                                        <li><a href="#">기획서 보기</a></li>
+                                    </ul>
+                                </div>
+
+                            </div> <!-- .swiper-slide end / 1 -->
+                            <div class="swiper-slide">
+
+                                <div class="youtube_wrap">
+                                    <div class="youtube">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DVQNXLHzKoM"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div> <!-- .youtube_wrap -->
+
+                                <div class="info">
+                                    <h4>아기 삵을 구조하면 심장에 해로움</h4>
+                                    <p>기획, 연출, 디자인, 촬영, 특수효과</p>
+                                    <dl>
+                                        <dt>제작기획</dt>
+                                        <dd>컨셉 및 제작목적 웅대한 무엇이 품었기 행복스럽고 우리 대중을 갑 보배를 옷을 쓸쓸하랴? 꽃이 것은 이상, 미묘한 하여도 뿐이다. 끓는
+                                            동력은 위하여 때까지 노래하며 산야에 기관과 약동하다. 붙잡아 두손을 가치를 곧 끓는다. 찬미를 청춘의 하는 이상 얼음 동력은 싶이 밝은
+                                            사막이다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>프로그램</dt>
+                                        <dd>프리미어프로, 애프터이펙트, 포토샵, 일러스트레이터</dd>
+                                    </dl>
+
+                                    <ul class="btn">
+                                        <li><a href="#">유튜브 이동</a></li>
+                                        <li><a href="#">기획서 보기</a></li>
+                                    </ul>
+                                </div>
+
+                            </div> <!-- .swiper-slide end / 2 -->
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div> <!-- .list_in end 2 / 홍보영상 -->
+
+            </div> <!-- .list end -->
+
+        </div> <!-- .inner end -->
+
+
+    </section> <!-- .video end -->
+
+    <section class="web">
+        <div class="inner">
+
+            <div class="title">
+                <h3>웹디자인/웹퍼블리싱</h3>
+                <p>포토샵, 일러스트레이터, 비주얼스튜디오코드를 이용해 웹사이트 구현</p>
+            </div> <!-- .title end -->
+
+            <div class="list">
+
+                <div class="item">
+                    <figure>
+                        <img src="http://via.placeholder.com/464x370" alt="" />
+                    </figure>
+                    <div class="info">
+                        <h4>리뉴얼 사이트 이름 작성</h4>
+                        <p>웹사이트 리뉴얼을 진행했으며, 기획, 디자인, HTML 및 CSS 언어를 사용해 구현했습니다.</p>
+                        <dl>
+                            <dt>프로그램</dt>
+                            <dd>비주얼코드, 포토샵</dd>
+                        </dl>
+                        <dl>
+                            <dt>사용 언어</dt>
+                            <dd>HTML, CSS</dd>
+                        </dl>
+                        <ul class="btn">
+                            <li><a href="sub/starship/index.html" target="_blank">사이트 보기</a></li>
+                            <li><a href="#">기획서 보기</a></li>
+                        </ul> <!-- .btn end -->
+                    </div> <!-- .info end -->
+                </div> <!-- .item end / 1 -->
+
+                <div class="item">
+                    <figure>
+                        <img src="http://via.placeholder.com/464x370" alt="" />
+                    </figure>
+                    <div class="info">
+                        <h4>리뉴얼 사이트 이름 작성</h4>
+                        <p>웹사이트 리뉴얼을 진행했으며, 기획, 디자인, HTML 및 CSS 언어를 사용해 구현했습니다.</p>
+                        <dl>
+                            <dt>프로그램</dt>
+                            <dd>비주얼코드, 포토샵</dd>
+                        </dl>
+                        <dl>
+                            <dt>사용 언어</dt>
+                            <dd>HTML, CSS</dd>
+                        </dl>
+                        <ul class="btn">
+                            <li><a href="sub/unhcr/index.html" target="_blank">사이트 보기</a></li>
+                            <li><a href="#">기획서 보기</a></li>
+                        </ul> <!-- .btn end -->
+                    </div> <!-- .info end -->
+                </div> <!-- .item end / 2 -->
+
+            </div> <!-- .list -->
+
+        </div> <!-- .inner end -->
+    </section> <!-- .web end -->
+
+    <section class="graphic">
+        <div class="inner">
+
+            <div class="title">
+                <h3>그래픽디자인</h3>
+                <p>2D, 3D그래픽을 포토샵, 일러스트레이터를 이용해 제작했습니다.</p>
+            </div> <!-- .title end -->
+
+            <div class="list">
+
+                <div class="item">
+                    <!-- 브라우저에 fancybox3 검색, 라이트박스 스크립트  -->
+                    <a href="https://source.unsplash.com/juHayWuaaoQ/1500x1000" data-fancybox="images">
+                        <img src="https://source.unsplash.com/juHayWuaaoQ/240x160" />
+                        <div class="info">
+                            <h4>디자인 제목</h4>
+                            <p>사용 프로그램 이름</p>
+                        </div> <!-- .info end -->
+                    </a>
+                </div> <!-- .item end / 1 -->
+                <div class="item">
+                    <a href="https://source.unsplash.com/juHayWuaaoQ/1500x1000" data-fancybox="images">
+                        <img src="https://source.unsplash.com/juHayWuaaoQ/240x160" />
+                        <div class="info">
+                            <h4>디자인 제목</h4>
+                            <p>사용 프로그램 이름</p>
+                        </div> <!-- .info end -->
+                    </a>
+                </div> <!-- .item end / 2 -->
+                <div class="item">
+                    <a href="https://source.unsplash.com/juHayWuaaoQ/1500x1000" data-fancybox="images">
+                        <img src="https://source.unsplash.com/juHayWuaaoQ/240x160" />
+                        <div class="info">
+                            <h4>디자인 제목</h4>
+                            <p>사용 프로그램 이름</p>
+                        </div> <!-- .info end -->
+                    </a>
+                </div> <!-- .item end / 3 -->
+                <div class="item">
+                    <a href="https://source.unsplash.com/juHayWuaaoQ/1500x1000" data-fancybox="images">
+                        <img src="https://source.unsplash.com/juHayWuaaoQ/240x160" />
+                        <div class="info">
+                            <h4>디자인 제목</h4>
+                            <p>사용 프로그램 이름</p>
+                        </div> <!-- .info end -->
+                    </a>
+                </div> <!-- .item end / 4 -->
+                <div class="item">
+                    <a href="https://source.unsplash.com/juHayWuaaoQ/1500x1000" data-fancybox="images">
+                        <img src="https://source.unsplash.com/juHayWuaaoQ/240x160" />
+                        <div class="info">
+                            <h4>디자인 제목</h4>
+                            <p>사용 프로그램 이름</p>
+                        </div> <!-- .info end -->
+                    </a>
+                </div> <!-- .item end / 5 -->
+
+            </div> <!-- .list end -->
+
+        </div> <!-- .inner end -->
+    </section> <!-- .graphic end -->
+
+
+
+
+
+
+    <!-- 직접 스크립트 작성하기 -> https://cdnjs.com/ -->
+    <!-- jquery 라이브러리 연결을 위해 script tag 복붙하기 -->
+    <!-- jquery는 자바스크립트(개발언어 중 하나)를 편하게 쓸 수 있도록 도와주는 것, 코드를 쉽게 작성하기 위해 필요한 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jquery 라이브러리가 항상 위에 있어야 함 -->
+    <!-- jquery 라이브러리 밑에 fancybox JS 붙여넣기 해줌(브라우저 setup에서 Download fancybox -> CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 스와이퍼 스크립트는 항상 바디태그 끝나기 직전에 넣어야 함. 만약 태그 사이에 끼어 있으면 작동이 안 됨. 주의할 것 -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        //스크립트 안에서는 슬러시 2개로 주석을 적음 /*  */ 이것도 가능하지만 잘 안 씀
+        //탭메뉴 클릭 이벤트
+        //$는 제이쿼리라는 뜻, ('')는 탭메뉴 안의 li를 클릭했을 때 뭔가를 실행시켜주겠다는 뜻
+        //여기서 뭔가는 ()에 적음. this는 해당 태그를 뜻함
+        //li 중 내가 클릭한 특정 li만 지정할 때 클래스명을 추가시켜줘야 함 .addClass
+        //on은 액티브를 의미
+        $('.tab_menu li').click(function () {
+            $('.tab_menu li').removeClass('on'); //클릭되지 않은 li들에게 클래스명을 지원줌
+            $(this).addClass('on');
+            //순서 매우 중요함. 모든 li에게서 클래스명을 지워준 후에 클릭한 li에게 클래스명이 붙도록 작성해야 함
+            //만약 addClass를 먼저 쓴 후 removeClass를 작성하면 클래스명이 붙자마자 지워지게 됨
+
+            //탭메뉴 안의 li 클릭했을 때 영상 슬라이드 나타나도록 설정하기
+            $('.video .list_in').removeClass('on');
+            $('.video .list_in').eq($(this).index()).addClass('on');
+            //eq는 해당하는 순서를 지정해주는 것
+            //eq(0) -> 첫 번째 요소, eq(2) -> 두 번째 요소, 이런 식임. 그런데 이렇게 고정시키면 의도대로 바뀌지 않음
+            //내가 클릭한 .tab_menu의 li가 몇 번째인지 순서를 찾아서 해당 번쨰의 list_in에게 클래스명 on이 붙도록 설정해야 함
+            // $(this).index() -> 이건 내가 클릭한 li[$(this)]가 몇 번째인지 세주는 역할[index()]을 함
+
+        });
+
+    </script>
+
+</body>
+
+</html>

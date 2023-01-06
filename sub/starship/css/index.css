@@ -1,0 +1,695 @@
+@charset "utf-8";
+
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    line-height: 1;
+    color: #111;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 🦁 header */
+
+header {
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+header .inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .inner h1 {
+    margin-left: 60px;
+}
+
+header .inner .center_menu {
+    width: 954px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header .inner .center_menu li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header .inner .right_menu {
+    margin-right: 60px;
+    display: flex;
+}
+
+header .inner .right_menu li {
+    margin-left: 50px;
+}
+
+header .inner .center_menu li:hover a {
+    color: #ffa300;
+}
+
+
+
+/* 🐶 .main_visual */
+
+.main_visual {
+    height: 100vh;
+}
+
+.main_visual video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_visual .swiper-button-next {
+    width: 120px;
+}
+
+.main_visual .swiper-button-next::before {
+    content: 'NEXT';
+    font-size: 14px;
+    color: #fff;
+    width: 50px;
+    height: 20px;
+}
+
+.main_visual .swiper-button-next::after {
+    content: '▶';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    width: 30px;
+    height: 20px;
+}
+
+/* 가상선택자에게 호버 효과를 줄 때는 붙여써야 함 */
+.main_visual .swiper-button-next:hover::after {
+    color: #ffa300;
+}
+
+.main_visual .swiper-button-prev {
+    width: 120px;
+}
+
+.main_visual .swiper-button-prev::before {
+    content: '◀';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    width: 50px;
+    height: 20px;
+}
+
+.main_visual .swiper-button-prev:hover::before {
+    color: #ffa300;
+}
+
+.main_visual .swiper-button-prev:after {
+    display: none;
+}
+
+.main_visual .swiper-pagination-fraction {
+    width: 180px;
+    bottom: 49.5%;
+    z-index: 3;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+}
+
+.main_visual .swiper-slide div {
+    position: absolute;
+    bottom: 70px;
+    left: 0%;
+    width: 100%;
+    color: #fff;
+}
+
+.main_visual .swiper-slide div h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.main_visual .swiper-slide div p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.main_visual .swiper-slide div:hover p {
+    color: #ffa300;
+}
+
+
+
+
+/* 🐺 .cont01 */
+
+.cont01 {
+    width: 100%;
+    background-color: #333;
+}
+
+.cont01 .inner {
+    padding-top: 200px;
+    position: relative;
+}
+
+.cont01 .inner .title {
+    padding: 0 0 50px 240px;
+    line-height: 1.2;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* 🐺🐷 .cont01 .li_artists */
+
+.cont01 .inner .li_artists {
+    display: flex;
+    padding-left: 240px;
+}
+
+.cont01 .inner .li_artists .slide_title {
+    width: 350px;
+    height: 350px;
+    margin-right: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cont01 .inner .li_artists .slide_title a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont01 .inner .li_artists .slide_title a div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    margin: 136px 45px;
+}
+
+.cont01 .inner .li_artists .slide_title a div h4 {
+    font-size: 36px;
+}
+
+.cont01 .inner .li_artists .slide_title a div p {
+    font-size: 14px;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cont01 .inner .li_artists .slide_title:hover P {
+    color: #fff;
+}
+
+.cont01 .inner .li_artists .cont01_slide01 {
+    width: 1300px;
+    height: 350px;
+}
+
+.cont01 .inner .li_artists .cont01_slide01 .swiper-wrapper .swiper-slide {
+    width: 350px !important;
+    /* 슬라이드가 가진 자체 너비 때문에 안 먹혀서 important 값을 줌 */
+    height: 350px;
+    overflow: hidden;
+}
+
+.cont01 .inner .li_artists .cont01_slide01 .swiper-wrapper .swiper-slide img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont01 .inner .li_artists .cont01_slide01 .swiper-wrapper .swiper-slide div {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 350px;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cont01 .inner .li_artists .cont01_slide01 .swiper-wrapper .swiper-slide:hover div {
+    opacity: 100%;
+    transition: 0.75s;
+}
+
+
+/* 🐺🐗 .cont01 .li_actors */
+
+.cont01 .inner .li_actors {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 226px 200px 0;
+}
+
+.cont01 .inner .li_actors .slide_title {
+    width: 350px;
+    height: 350px;
+    margin-left: 12px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.cont01 .inner .li_actors .slide_title a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont01 .inner .li_actors .slide_title a div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    margin: 136px 45px;
+}
+
+.cont01 .inner .li_actors .slide_title a div h4 {
+    font-size: 36px;
+}
+
+.cont01 .inner .li_actors .slide_title a div p {
+    font-size: 14px;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cont01 .inner .li_actors .slide_title:hover P {
+    color: #fff;
+}
+
+.cont01 .inner .li_actors .cont01_slide02 {
+    width: 1317px;
+    height: 350px;
+}
+
+.cont01 .inner .li_actors .cont01_slide02 .swiper-wrapper .swiper-slide {
+    width: 350px !important;
+    /* 슬라이드가 가진 자체 너비 때문에 안 먹혀서 important 값을 줌 */
+    height: 350px;
+    overflow: hidden;
+}
+
+.cont01 .inner .li_actors .cont01_slide02 .swiper-wrapper .swiper-slide img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.cont01 .inner .li_actors .cont01_slide02 .swiper-wrapper .swiper-slide div {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 351px;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cont01 .inner .li_actors .cont01_slide02 .swiper-wrapper .swiper-slide:hover div {
+    opacity: 100%;
+    transition: 0.75s;
+}
+
+.cont01 .inner .BG {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/* 🐻 .comt02 */
+
+.cont02 .inner {
+    width: 1440px;
+    margin: 200px auto;
+}
+
+.cont02 .inner .title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.cont02 .inner .li01 a {
+    display: flex;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.cont02 .inner .li01 a img {
+    width: 586px;
+    height: 580px;
+}
+
+.cont02 .inner .li01 a .text {
+    width: 586px;
+    height: 580px;
+    padding: 180px 0 0 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.cont02 .inner .li01 .text span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cont02 .inner .li01 .text h3 {
+    font-size: 40px;
+    line-height: 1.3;
+    margin: 20px 0 30px;
+}
+
+.cont02 .inner .li01 .text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.cont02 .inner .li01 .poster {
+    width: 854px;
+    height: 580px;
+    overflow: hidden;
+}
+
+.cont02 .inner .li01 .poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont02 .inner .li01:hover .poster>img {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+.cont02 .inner .li02 {
+    width: 100%;
+    height: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont02 .inner .li02 .item {
+    width: 464px;
+    height: 580px;
+    overflow: hidden;
+}
+
+.cont02 .inner .li02 .item a .box {
+    width: 100%;
+    height: 300px;
+}
+
+.cont02 .inner .li02 .item a .box02 {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.cont02 .inner .li02 .item a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont02 .inner .li02 .item a p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cont02 .inner .li02 .item a h5 {
+    font-size: 24px;
+}
+
+.cont02 .inner .li02 .item a h3 {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin: 180px 0 50px;
+}
+
+.cont02 .inner .li02 .item a h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 65px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+}
+
+.cont02 .inner .li02 .item a span {
+    display: block;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cont02 .inner .li02 .item a .box:hover span {
+    color: #ffa300;
+}
+
+.cont02 .inner .li02 .item:hover img {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+
+/* 🦊 .cont03 */
+
+.cont03 {
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.cont03 .cont03_slide {
+    height: 100%;
+}
+
+.cont03 .cont03_slide .swiper-wrapper {
+    height: 100%;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide {
+    height: 100%;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide a {
+    height: 100%;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide a img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide a div {
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    right: 0;
+    z-index: 11;
+    text-align: left;
+    padding-left: 415px;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide a div h4 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide a div h4:nth-child(1) {
+    opacity: 60%;
+    margin-bottom: 5px;
+}
+
+.cont03 .cont03_slide .swiper-wrapper .swiper-slide a div p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 35px;
+    color: #555;
+}
+
+.cont03 .swiper-pagination-bullet {
+    background-color: rgba(85, 85, 85, 0.5);
+}
+
+.cont03 .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+
+/* 🐰 footer */
+
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 330px;
+}
+
+footer .inner {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer .inner .item01 {
+    width: 342px;
+}
+
+
+footer .inner .item01 div {
+    width: 244px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+footer .inner .item01 div img {
+    width: 22px;
+    height: 22px;
+}
+
+footer .inner .item03 {
+    width: 342px;
+    margin-top: 26px;
+}
+
+footer .inner .item03 div {
+    width: 244px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin: 15px auto 0;
+}
+
+footer .inner .item03 div img {
+    width: 22px;
+    height: 22px;
+}
+
+footer .inner .item02 {
+    width: 342px;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+footer .inner .item02 div h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer .inner .item02 div p {
+    margin-bottom: 10px;
+}

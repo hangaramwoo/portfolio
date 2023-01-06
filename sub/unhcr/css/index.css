@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+}
+
+/* 💘 header start */
+
+header {
+    height: 90px;
+}
+
+header .inner {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .inner ul {
+    display: flex;
+}
+
+header .inner nav ul li {
+    font-size: 20px;
+    margin-right: 90px;
+}
+
+header .inner .right_menu li {
+    margin-left: 45px;
+}
+
+
+/* 💌 .quick_menu start */
+
+.quick_menu {
+    width: 98px;
+    height: 520px;
+    border-radius: 20px 0 0 20px;
+    background-color: #fff;
+    box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 350px;
+}
+
+.quick_menu .inner ul {
+    
+}
+
+.quick_menu .inner ul li {
+    width: 100%;
+    height: 104px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.quick_menu .inner ul li:nth-child(1) {
+    background-color: #066dba;
+    color: #fff;
+}
+
+.quick_menu .inner ul li a {
+    margin: 0 auto;
+}
+
+.quick_menu .inner ul li a img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.quick_menu .inner ul li a p {
+    padding-top: 12px;
+}
+
+
+/* 💕 .main_visual start */
+
+.main_visual {
+    width: 100%;
+    background: url(../img/main_visual_BG.png) center center / cover no-repeat;
+}
+
+.main_visual .inner .item01 {
+    padding: 160px 484px;
+}
+
+.main_visual .inner .item01 .text {
+    color: #fff;
+}
+
+.main_visual .inner .item01 .text:nth-child(2) {
+    margin-top: 37px;
+}
+
+.main_visual .inner .item01 >p {
+    margin-top: 35px;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 10px #066dba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #066dba;
+    font-size: 18px;
+}
+
+.main_visual .inner .item01 .text h4 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.main_visual .inner .item01 .text p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+.main_visual .inner .item02 {
+    height: 180px;
+    background-color: #066dba;
+}
+
+.main_visual .inner .item02 .BG {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 59px;
+}
+
+.main_visual .inner .item02 .BG .group01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_visual .inner .item02 .BG .group01 p {
+    height: 55px;
+    width: 170px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_visual .inner .item02 .BG .group01 p:nth-child(1) {
+    border-radius: 15px 0 0 15px;
+    color: #066dba;
+}
+
+.main_visual .inner .item02 .BG .group01 p:nth-child(2) {
+    border-radius: 0 15px 15px 0;
+    color: #888;
+    border-left: #888 solid 1px;
+}
+
+.main_visual .inner .item02 .BG .group02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_visual .inner .item02 .BG .group02 p:nth-child(1) {
+    width: 200px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_visual .inner .item02 .BG .group02 p:nth-child(2) {
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.main_visual .inner .item02 .BG .group02 p:nth-child(3) {
+    width: 520px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main_visual .inner .item02 .BG .group02 p span {
+    color: #066dba;
+}
+
+.main_visual .inner .item02 .BG .group03{
+    width: 114px;
+    height: 114px;
+    border-radius: 100px;
+    background-color: #ffe530;
+    color: #066dba;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 💖 .cont01 start */
+
+.cont01 {
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
