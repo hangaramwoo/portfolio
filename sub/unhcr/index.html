@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNHCR</title>
+    <!-- FANCY BOX's CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <link href="css/index.css" rel="stylesheet">
 </head>
 
@@ -36,7 +44,7 @@
                 <li>
                     <a>
                         <img src="img/smile.png" alt="퀵메뉴 아이콘" />
-                        <p>Quick</p>
+                        <h6>Quick</h6>
                     </a>
                 </li>
 
@@ -84,33 +92,459 @@
                     <h4>귀하고 소중한 아이들입니다</h4>
                     <p>오늘 이 아이들에게 더 나은 미래를<br />꿈꿀 수 있는 기회를 주세요</p>
                 </div> <!-- .text end 02 -->
-                <p>아이들 도와주기</p>
+                <div class="btn">
+                    <h3><a href="#">아이들 도와주기</a></h3>
+                </div> <!-- .btn end -->
             </div> <!-- .item01 end -->
 
             <div class="item02">
                 <div class="BG">
+
+                    <!-- ✨ .group01 -->
                     <div class="group01">
-                        <p>정기후원</p>
+                        <p class="on">정기후원</p>
                         <p>일시후원</p>
                     </div>
-                    <div class="group02">
-                        <p>월 30,000원</p>
-                        <p>이면,</p>
-                        <p>난민 1명에게 <span>  소중한 식량 키트</span>를 지원할 수 있습니다.</p>
+
+                    <div class="middle">
+
+                        <div class="middle_in on">
+                            <ul class="group02">
+
+                                <li class="depth01 on">
+                                    <p class="on">월 30,000원</p>
+                                    <p>월 50,000원</p>
+                                    <p>월 70,000원</p>
+                                    <ul class="depth02">
+                                        <li>월 30,000원</li>
+                                        <li>월 50,000원</li>
+                                        <li>월 70,000원</li>
+                                    </ul>
+                                </li> <!-- .depth01 end -->
+
+                            </ul> <!-- .group02 -->
+
+                            <!-- ✨ .group03 -->
+                            <div class="group03">
+                                <ul class="group03_in on">
+                                    <li>이면,</li>
+                                    <li>어린이 1명에게 <span>&nbsp; 소중한 식량 키트</span>를 지원할 수 있습니다.</li>
+                                </ul>
+                                <ul class="group03_in">
+                                    <li>이면,</li>
+                                    <li>난민 한 가족에게 <span>&nbsp; 꼭 필요한 생존키트</span>를 지원할 수 있습니다.</li>
+                                </ul>
+                                <ul class="group03_in">
+                                    <li>이면,</li>
+                                    <li>난민 550명의 <span>&nbsp; 목숨을 구하는 의료키트</span>를 지원할 수 있습니다.</li>
+                                </ul>
+                            </div> <!-- .group03 -->
+
+                        </div> <!-- .middle_in -->
+
+                        <div class="middle_in">
+                            <div class="box">
+                                <p>여러분의 따뜻한 마음이 모여</p>
+                                <p>난민들에게 <span>삶의 터전을 선물하고 미래를 꿈꾸는 기적</span>을 만듭니다.</p>
+                            </div>
+                        </div> <!-- .middle_in -->
+
+                    </div> <!-- .middle end -->
+                    <!-- ✨ .group02 -->
+
+                    <!-- ✨ .group04 -->
+                    <div class="group04">
+                        <p><a href="#">후원하기</a></p>
                     </div>
-                    <div class="group03">
-                        <p>후원하기</p>
-                    </div>
+
                 </div> <!-- .BG end -->
             </div> <!-- .item02 end -->
 
         </div> <!-- .inner end -->
     </section> <!-- .main_visual end -->
 
-
     <section class="cont01">
-        <p>안녕</p>
-    </section>
+        <div class="inner">
+            <div class="title">
+                <h4>후원·참여 캠페인</h4>
+            </div> <!-- .title end -->
+
+            <ul class="tab_menu">
+                <li class="on">
+                    <p>전체</p>
+                </li>
+                <li>
+                    <p>후원 캠페인</p>
+                </li>
+                <li>
+                    <p>긴급구호 캠페인</p>
+                </li>
+                <li>
+                    <p>참여 캠페인</p>
+                </li>
+            </ul> <!-- .tab_menu end -->
+
+            <div class="list">
+
+                <div class="list_in on"> <!-- 전체 -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <!-- 01 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_1.png" alt="난민 아동 캠페인" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>난민 아동 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 02 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_2.png" alt="지금도 일어나고 있습니다" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>지금도 일어나고 있습니다</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 03 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_1.png" alt="우크라이나 긴급구호" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>우크라이나 긴급구호</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 04 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_1.png" alt="글로벌 쉘터 서명 캠페인" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>글로벌 쉘터 서명 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 05 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_2.png" alt="안전을 찾아가는 여정 20억 km" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>안전을 찾아가는 여정 20억 km</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 06 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_3.png" alt="청년들의 청 캠페인" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>청년들의 청 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 07 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_3.png" alt="유엔난민기구 서명 캠페인" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>유엔난민기구 서명 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 08 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_4.png" alt="도심에서 만나는 유엔난민기구" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>도심에서 만나는 유엔난민기구</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 9 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_3.png" alt="시리아 긴급구호" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>시리아 긴급구호</h6>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div> <!-- .list_in end / 전체 -->
+
+                <div class="list_in"> <!-- 후원 캠페인 -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <!-- 01 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_1.png" alt="난민 아동 캠페인" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>난민 아동 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 02 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_2.png" alt="지금도 일어나고 있습니다" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>지금도 일어나고 있습니다</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 03 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_3.png" alt="청년들의 청 캠페인" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>청년들의 청 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 04 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_4.png" alt="난민 여성 캠페인" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>난민 여성 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 05 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid2_5.png" alt="글로벌 쉘터 캠페인" /></figure>
+                                    <p>후원 캠페인</p>
+                                    <h6>글로벌 쉘터 캠페인</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div> <!-- .list_in end / 후원 캠페인 -->
+
+                <div class="list_in"> <!-- 긴급구호 캠페인 -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <!-- 01 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_1.png" alt="우크라이나 긴급구호" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>우크라이나 긴급구호</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 02 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_2.png" alt="겨울철 난민보호" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>겨울철 난민보호</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 03 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_3.png" alt="시리아 긴급구호" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>시리아 긴급구호</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 04 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_4.png" alt="코로나19 긴급구호" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>코로나19 긴급구호</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 05 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_5.png" alt="미얀마 캠페인" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>미얀마 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 06 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid3_6.png" alt="아프가니스탄 캠페인" /></figure>
+                                    <p>긴급구호 캠페인</p>
+                                    <h6>아프가니스탄 캠페인</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div> <!-- .list_in end / 긴급구호 캠페인 -->
+
+                <div class="list_in"> <!-- 참여 캠페인 -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <!-- 01 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_1.png" alt="글로벌 쉘터 서명 캠페인" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>글로벌 쉘터 서명 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 02 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_2.png" alt="안전을 찾아가는 여정 20억 km" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>안전을 찾아가는 여정 20억 km</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 03 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_3.png" alt="유엔난민기구 서명 캠페인" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>유엔난민기구 서명 캠페인</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 04 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_4.png" alt="도심에서 만나는 유엔난민기구" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>도심에서 만나는 유엔난민기구</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 05 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_5.png" alt="키자니아 난민보호활동 체험관" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>키자니아 난민보호활동 체험관</h6>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"> <!-- 06 -->
+                                <a href="#">
+                                    <figure><img src="img/cont01_slid4_6.png" alt="'맛나는 만남' 난민 푸드페스티벌" /></figure>
+                                    <p>참여 캠페인</p>
+                                    <h6>'맛나는 만남' 난민 푸드페스티벌</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div> <!-- .list_in end / 참여 캠페인 -->
+
+        </div> <!-- .list end -->
+        </div> <!-- .inner end -->
+    </section> <!-- .cont01 end -->
+
+
+    <section class="cont02">
+        <img src="img/cont02_BG.jpg" alt="투명경영" />
+
+        <div class="inner">
+            <div class="list01">
+                <p>UNHCR, The UN Refugee Agency</p>
+                <p>유앤난민기구는<br />
+                    난민의 일생을 함께 지킬 수 있도록<br />
+                    <span>투명하고 책임 있게</span><br />
+                    후원금을 집행하고 있습니다.
+                </p>
+                <div class="btn">
+                    <a href="#">투명경영</a>
+                    <a href="#">연차보고</a>
+                </div>
+            </div>
+
+            <ul class="list02">
+                <li>
+                    <div>
+                        <h3><span>135</span>개국</h3>
+                        <p>난민 보호·지원 활동 전개</p>
+                    </div>
+                    <figure>
+                        <img src="img/cont02_icon01.png" alt="경영성과" />
+                    </figure>
+                </li>
+                <li>
+                    <div>
+                        <h3><span>8240</span>만명</h3>
+                        <p>난민·강제실향민 구호</p>
+                    </div>
+                    <figure>
+                        <img src="img/cont02_icon02.png" alt="경영성과" />
+                    </figure>
+                </li>
+                <li>
+                    <div>
+                        <h3><span>1954·1987</span>년</h3>
+                        <p>두 차례 노벨평화상 수상</p>
+                    </div>
+                    <figure>
+                        <img src="img/cont02_icon03.png" alt="경영성과" />
+                    </figure>
+                </li>
+            </ul>
+        </div> <!-- .inner end -->
+    </section> <!-- .cont02 end -->
+
+    <footer>
+        <div class="inner">
+            <div class="top">
+                <img src="img/footer_logo.png" alt="logo" />
+                <div>
+                    <a href><img src="img/footer_instagram.png" alt="instagram" /></a>
+                    <a href><img src="img/footer_youtube.png" alt="youtube" /></a>
+                    <a href><img src="img/footer_facebook.png" alt="facebook" /></a>
+                    <a href><img src="img/footer_twitter.png" alt="twitter" /></a>
+                </div>
+            </div> <!-- .top end -->
+
+            <div class="bottom">
+                <p>유엔난민기구(UNHCR) 고유번호 104-84-05025 | 대표자 : 전혜경 | Tel : 02-773-7011 | Fax : 02-773-7014 | E-mail :
+                    unhcr@unhcr.or.kr</p>
+                <p>후원문의 : 02-773-7272 | 후원메일 | withyou@unhcr.or.kr | 주소 : (04523) 서울특별시 중구 무교로 6 금세기빌딩 7층 COPYRIGHT 2022
+                    UNHCR. ALL RIGHT RESERVED.</p>
+            </div> <!-- .bottom end -->
+        </div> <!-- .inner end -->
+    </footer>
+
+
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Fancy Box -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 23,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+
+        $('.group01 p').click(function () {
+            $('.group01 p').removeClass('on');
+            $(this).addClass('on');
+
+            $('.middle_in').removeClass('on');
+            $('.middle_in').eq($(this).index()).addClass('on');
+        });
+
+        $('.depth01 p').click(function () {
+            $('.depth02').stop().slideDown(); //안 됨
+        });
+
+        $('.depth02 li').click(function () {
+            $('.depth01 p').removeClass('on');
+            $('.depth01 p').eq($(this).index()).addClass('on');
+            console.log($(this).index())
+
+            $('.group03_in').removeClass('on');
+            $('.group03_in').eq($(this).index()).addClass('on');
+
+            $('.depth02').stop().slideUp();
+        });
+
+        $('.tab_menu li').click(function () {
+            $('.tab_menu li').removeClass('on');
+            $(this).addClass('on');
+
+            $('.cont01 .list_in').removeClass('on');
+            $('.cont01 .list_in').eq($(this).index()).addClass('on');
+        });
+
+    </script>
+
+
 
 </body>
 
